@@ -1,0 +1,7 @@
+{
+  "name": "seed",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
