@@ -4,7 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ZXingScannerModule } from '@zxing/ngx-scanner';
 import { RouteReuseStrategy } from '@angular/router';
-import { IonicRouteStrategy } from '@ionic/angular';
+import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { SeedBoxRoutingModule } from './seedbox-routing.module';
 import { ScanViewComponent } from './views/scan-view/scan-view.component';
 
@@ -19,7 +19,8 @@ import { ScanViewComponent } from './views/scan-view/scan-view.component';
 		FormsModule,
     SeedBoxRoutingModule,
     ReactiveFormsModule,		
-		ZXingScannerModule
+		ZXingScannerModule,
+    IonicModule
   ]
 })
 export class SeedboxModule { }
